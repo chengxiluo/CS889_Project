@@ -18,7 +18,8 @@ Second parameter is agent type. 0: rule-based method, 1: RL-based method.
 
 Third parameter (optional) is the number of conversation round, default is 1. 
 
-## Current Process: (when user type is real users) 
+## Current Process: 
+When user type is real users,
 - All the conversations are through terminal commands, and users have to restrictly type the correct answer.
 - target restaurant is randomly chosen by the system and revealed to users; 
 - target restaurant information is provided; 
