@@ -18,6 +18,8 @@ Second parameter is agent type. 0: rule-based method, 1: RL-based method.
 
 Third parameter (optional) is the number of conversation round, default is 1. 
 
+SampleConversations.pdf is the log of sample conversations. 
+
 ## Current Process: 
 When user type is real users,
 - All the conversations are through terminal commands, and users have to restrictly type the correct answer.
