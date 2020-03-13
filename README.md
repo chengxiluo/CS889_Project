@@ -8,7 +8,7 @@
 - pickle
 
 
-## Command to run
+## Command to Run
 
 python example.py 0 0 --num 3
 
@@ -18,13 +18,13 @@ Second parameter is agent type. 0: rule-based method, 1: RL-based method.
 
 Third parameter (optional) is the number of conversation round, default is 1. 
 
-Current Process: (when user type is real users) 
+## Current Process: (when user type is real users) 
 - All the conversations are through terminal commands, and users have to restrictly type the correct answer.
 - target restaurant is randomly chosen by the system and revealed to users; 
 - target restaurant information is provided; 
 - users have to answer questions from the system based on these information.
 
-Ideal Process:
+## Ideal Process:
 - All the conversations will be through a platform, so no constraints on chatting in natural language.
 - Target restaurant is radomly chosen by the system and not reveal to users;
 - Users learn the preference of simulated user based on past visiting restaurants information;
