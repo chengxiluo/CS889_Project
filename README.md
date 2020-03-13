@@ -8,35 +8,18 @@
 - pickle
 
 
-## 运行方式
+## Command to run
 
 python example.py 0 0 --num 3
 
-第一个参数user type，0表示模拟用户，1表示命令行输入
+First parameter is user type. 0: simulated users, 1:real users.
 
-第二个参数agent type，0表示基于规则的系统，1表示基于强化学习的系统
+Second parameter is agent type. 0: rule-based method, 1: RL-based method.
 
-第三个参数（可选），对话次数，默认为1
+Third parameter (optional) is the number of conversation round, default is 1. 
 
-note：选择命令行输入时会提供目标餐厅信息，根据提供的信息回答系统提出的问题
-
-
-## 参考论文
-Conversational Recommender System
-
-**<https://arxiv.org/abs/1806.03277>**
-
-## 测试结果
-
-average reward | average turn |  success rate  
--|-|-
-31.0821 | 3.7336 | 0.9676 
+note: when user type is real users, target restaurant information is provided and users have to answer questions from the system based on these information.
 
 
-## 生成训练数据（可选）
-当前仓库包含已训练好的模型参数
 
-如需重新训练，可使用脚本make_data.sh生成数据
-
-在每个模块的子文件夹中，包含各个模块训练使用的代码
 
